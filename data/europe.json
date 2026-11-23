@@ -1,0 +1,886 @@
+{
+ "_how_to_add": "Add a country: one row in countries (code, name, iso_numeric from the map file, flag, color, label [lon, lat]). Add a person: one row in people (country code, name, about, born, lat, lon, image = the Wikimedia Commons file name, wikipedia link).",
+ "countries": [
+  {
+   "code": "AT",
+   "name": "Austria",
+   "iso_numeric": "040",
+   "group": "EU",
+   "flag": "flags/at.svg",
+   "color": "#de7373",
+   "label": [
+    14.4,
+    47.55
+   ]
+  },
+  {
+   "code": "BE",
+   "name": "Belgium",
+   "iso_numeric": "056",
+   "group": "EU",
+   "flag": "flags/be.svg",
+   "color": "#73de93",
+   "label": [
+    4.55,
+    50.7
+   ]
+  },
+  {
+   "code": "BG",
+   "name": "Bulgaria",
+   "iso_numeric": "100",
+   "group": "EU",
+   "flag": "flags/bg.svg",
+   "color": "#b173de",
+   "label": [
+    25.3,
+    42.75
+   ]
+  },
+  {
+   "code": "HR",
+   "name": "Croatia",
+   "iso_numeric": "191",
+   "group": "EU",
+   "flag": "flags/hr.svg",
+   "color": "#ded273",
+   "label": [
+    16.3,
+    45.55
+   ]
+  },
+  {
+   "code": "CY",
+   "name": "Cyprus",
+   "iso_numeric": "196",
+   "group": "EU",
+   "flag": "flags/cy.svg",
+   "color": "#73ccde",
+   "label": [
+    33.1,
+    35.05
+   ]
+  },
+  {
+   "code": "CZ",
+   "name": "Czechia",
+   "iso_numeric": "203",
+   "group": "EU",
+   "flag": "flags/cz.svg",
+   "color": "#de73ac",
+   "label": [
+    15.4,
+    49.8
+   ]
+  },
+  {
+   "code": "DK",
+   "name": "Denmark",
+   "iso_numeric": "208",
+   "group": "EU",
+   "flag": "flags/dk.svg",
+   "color": "#8dde73",
+   "label": [
+    9.2,
+    56.05
+   ]
+  },
+  {
+   "code": "EE",
+   "name": "Estonia",
+   "iso_numeric": "233",
+   "group": "EU",
+   "flag": "flags/ee.svg",
+   "color": "#7873de",
+   "label": [
+    25.8,
+    58.75
+   ]
+  },
+  {
+   "code": "FI",
+   "name": "Finland",
+   "iso_numeric": "246",
+   "group": "EU",
+   "flag": "flags/fi.svg",
+   "color": "#de9673",
+   "label": [
+    26,
+    63.2
+   ]
+  },
+  {
+   "code": "FR",
+   "name": "France",
+   "iso_numeric": "250",
+   "group": "EU",
+   "flag": "flags/fr.svg",
+   "color": "#73deb7",
+   "label": [
+    2.4,
+    46.9
+   ]
+  },
+  {
+   "code": "DE",
+   "name": "Germany",
+   "iso_numeric": "276",
+   "group": "EU",
+   "flag": "flags/de.svg",
+   "color": "#d573de",
+   "label": [
+    10.3,
+    51.2
+   ]
+  },
+  {
+   "code": "GR",
+   "name": "Greece",
+   "iso_numeric": "300",
+   "group": "EU",
+   "flag": "flags/gr.svg",
+   "color": "#c7de73",
+   "label": [
+    21.9,
+    39.6
+   ]
+  },
+  {
+   "code": "HU",
+   "name": "Hungary",
+   "iso_numeric": "348",
+   "group": "EU",
+   "flag": "flags/hu.svg",
+   "color": "#73a8de",
+   "label": [
+    19.4,
+    47.15
+   ]
+  },
+  {
+   "code": "IE",
+   "name": "Ireland",
+   "iso_numeric": "372",
+   "group": "EU",
+   "flag": "flags/ie.svg",
+   "color": "#de7388",
+   "label": [
+    -8,
+    53.25
+   ]
+  },
+  {
+   "code": "IT",
+   "name": "Italy",
+   "iso_numeric": "380",
+   "group": "EU",
+   "flag": "flags/it.svg",
+   "color": "#73de7c",
+   "label": [
+    12.6,
+    42.9
+   ]
+  },
+  {
+   "code": "LV",
+   "name": "Latvia",
+   "iso_numeric": "428",
+   "group": "EU",
+   "flag": "flags/lv.svg",
+   "color": "#9c73de",
+   "label": [
+    25.4,
+    56.85
+   ]
+  },
+  {
+   "code": "LT",
+   "name": "Lithuania",
+   "iso_numeric": "440",
+   "group": "EU",
+   "flag": "flags/lt.svg",
+   "color": "#deba73",
+   "label": [
+    23.9,
+    55.3
+   ]
+  },
+  {
+   "code": "LU",
+   "name": "Luxembourg",
+   "iso_numeric": "442",
+   "group": "EU",
+   "flag": "flags/lu.svg",
+   "color": "#73deda",
+   "label": [
+    6.1,
+    49.65
+   ]
+  },
+  {
+   "code": "MT",
+   "name": "Malta",
+   "iso_numeric": "470",
+   "group": "EU",
+   "flag": "flags/mt.svg",
+   "color": "#de73c3",
+   "label": [
+    14.4,
+    35.85
+   ]
+  },
+  {
+   "code": "NL",
+   "name": "Netherlands",
+   "iso_numeric": "528",
+   "group": "EU",
+   "flag": "flags/nl.svg",
+   "color": "#a3de73",
+   "label": [
+    5.7,
+    52.3
+   ]
+  },
+  {
+   "code": "PL",
+   "name": "Poland",
+   "iso_numeric": "616",
+   "group": "EU",
+   "flag": "flags/pl.svg",
+   "color": "#7384de",
+   "label": [
+    19.3,
+    52.1
+   ]
+  },
+  {
+   "code": "PT",
+   "name": "Portugal",
+   "iso_numeric": "620",
+   "group": "EU",
+   "flag": "flags/pt.svg",
+   "color": "#de8173",
+   "label": [
+    -8,
+    39.7
+   ]
+  },
+  {
+   "code": "RO",
+   "name": "Romania",
+   "iso_numeric": "642",
+   "group": "EU",
+   "flag": "flags/ro.svg",
+   "color": "#73de9f",
+   "label": [
+    25,
+    45.9
+   ]
+  },
+  {
+   "code": "SK",
+   "name": "Slovakia",
+   "iso_numeric": "703",
+   "group": "EU",
+   "flag": "flags/sk.svg",
+   "color": "#c073de",
+   "label": [
+    19.6,
+    48.7
+   ]
+  },
+  {
+   "code": "SI",
+   "name": "Slovenia",
+   "iso_numeric": "705",
+   "group": "EU",
+   "flag": "flags/si.svg",
+   "color": "#dede73",
+   "label": [
+    14.8,
+    46.1
+   ]
+  },
+  {
+   "code": "ES",
+   "name": "Spain",
+   "iso_numeric": "724",
+   "group": "EU",
+   "flag": "flags/es.svg",
+   "color": "#73bede",
+   "label": [
+    -3.6,
+    40.2
+   ]
+  },
+  {
+   "code": "SE",
+   "name": "Sweden",
+   "iso_numeric": "752",
+   "group": "EU",
+   "flag": "flags/se.svg",
+   "color": "#de739f",
+   "label": [
+    15.2,
+    61.6
+   ]
+  },
+  {
+   "code": "GB",
+   "name": "United Kingdom",
+   "iso_numeric": "826",
+   "group": "Neighbor",
+   "flag": "flags/gb.svg",
+   "color": "#7fde73",
+   "label": [
+    -1.6,
+    52.9
+   ]
+  },
+  {
+   "code": "NO",
+   "name": "Norway",
+   "iso_numeric": "578",
+   "group": "Neighbor",
+   "flag": "flags/no.svg",
+   "color": "#8473de",
+   "label": [
+    9,
+    61.4
+   ]
+  },
+  {
+   "code": "CH",
+   "name": "Switzerland",
+   "iso_numeric": "756",
+   "group": "Neighbor",
+   "flag": "flags/ch.svg",
+   "color": "#dea573",
+   "label": [
+    8.2,
+    46.8
+   ]
+  },
+  {
+   "code": "IS",
+   "name": "Iceland",
+   "iso_numeric": "352",
+   "group": "Neighbor",
+   "flag": "flags/is.svg",
+   "color": "#73dec3",
+   "label": [
+    -18.6,
+    64.9
+   ]
+  },
+  {
+   "code": "UA",
+   "name": "Ukraine",
+   "iso_numeric": "804",
+   "group": "Neighbor",
+   "flag": "flags/ua.svg",
+   "color": "#de73d9",
+   "label": [
+    31.4,
+    49.1
+   ]
+  }
+ ],
+ "people": [
+  {
+   "country": "BE",
+   "name": "Audrey Hepburn",
+   "about": "British actress (1929–1993)",
+   "born": "Ixelles, Brussels",
+   "lat": 50.8344,
+   "lon": 4.3618,
+   "image": "Audrey Hepburn in 1966.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Audrey_Hepburn",
+   "wikidata": "Q42786"
+  },
+  {
+   "country": "BE",
+   "name": "René Magritte",
+   "about": "Belgian surrealist (1898–1967)",
+   "born": "Lessines",
+   "lat": 50.7117,
+   "lon": 3.83,
+   "image": "René Magritte in 1961.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Ren%C3%A9_Magritte",
+   "wikidata": "Q7836"
+  },
+  {
+   "country": "BE",
+   "name": "Hergé",
+   "about": "Belgian comics writer (1907–1983)",
+   "born": "Etterbeek, Brussels",
+   "lat": 50.8361,
+   "lon": 4.3861,
+   "image": "Herge-Italie-1965-Linus.png",
+   "wikipedia": "https://en.wikipedia.org/wiki/Herg%C3%A9",
+   "wikidata": "Q52985"
+  },
+  {
+   "country": "BE",
+   "name": "Eddy Merckx",
+   "about": "Belgian cyclist (born 1945)",
+   "born": "Meensel-Kiezegem",
+   "lat": 50.8961,
+   "lon": 4.9244,
+   "image": "Eddy Merckx Molteni 1973.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Eddy_Merckx",
+   "wikidata": "Q103756"
+  },
+  {
+   "country": "BE",
+   "name": "Jacques Brel",
+   "about": "Belgian singer (1929–1978)",
+   "born": "Schaerbeek, Brussels",
+   "lat": 50.8675,
+   "lon": 4.3736,
+   "image": "Jacques Brel (1962).jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Jacques_Brel",
+   "wikidata": "Q1666"
+  },
+  {
+   "country": "BE",
+   "name": "Adolphe Sax",
+   "about": "Belgian musical instrument designer and musician (1814–1894)",
+   "born": "Dinant",
+   "lat": 50.2564,
+   "lon": 4.9136,
+   "image": "Adolphe Sax 1860s.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Adolphe_Sax",
+   "wikidata": "Q181995"
+  },
+  {
+   "country": "BE",
+   "name": "Django Reinhardt",
+   "about": "Jazz guitarist (1910–1953)",
+   "born": "Liberchies",
+   "lat": 50.5138,
+   "lon": 4.4209,
+   "image": "DjangoReinhardt-1939-Harcourt.png",
+   "wikipedia": "https://en.wikipedia.org/wiki/Django_Reinhardt",
+   "wikidata": "Q44122"
+  },
+  {
+   "country": "BE",
+   "name": "Charles V",
+   "about": "Holy Roman Emperor (1500–1558)",
+   "born": "Ghent",
+   "lat": 51.0536,
+   "lon": 3.7253,
+   "image": "Portrait of Charles V, Holy Roman Emperor, seated (1500–1558), formerly attributed to Titian (Alte Pinakothek, Munich).jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Charles_V,_Holy_Roman_Emperor",
+   "wikidata": "Q32500"
+  },
+  {
+   "country": "BE",
+   "name": "Jean-Claude Van Damme",
+   "about": "Belgian actor and martial artist (born 1960)",
+   "born": "Berchem-Sainte-Agathe, Brussels",
+   "lat": 50.865,
+   "lon": 4.2947,
+   "image": "Van Damme Cannes 2010 (cropped).jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Jean-Claude_Van_Damme",
+   "wikidata": "Q308840"
+  },
+  {
+   "country": "BE",
+   "name": "Kevin De Bruyne",
+   "about": "Belgian footballer (born 1991)",
+   "born": "Drongen, Ghent",
+   "lat": 51.0528,
+   "lon": 3.6617,
+   "image": "Kevin De Bruyne USMNT v Belgium Mar 28 2026-64 (cropped).jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Kevin_De_Bruyne",
+   "wikidata": "Q357984"
+  },
+  {
+   "country": "BE",
+   "name": "Georges Simenon",
+   "about": "Belgian writer (1903–1986)",
+   "born": "Liège",
+   "lat": 50.6397,
+   "lon": 5.5706,
+   "image": "GeorgesSimenon-StudioHarcourt-1952.png",
+   "wikipedia": "https://en.wikipedia.org/wiki/Georges_Simenon",
+   "wikidata": "Q128790"
+  },
+  {
+   "country": "BE",
+   "name": "Jan van Eyck",
+   "about": "Flemish painter (c.1390–1441)",
+   "born": "Maaseik",
+   "lat": 51.1019,
+   "lon": 5.7856,
+   "image": "Jan van Eyck - Portrait of a Man (Self Portrait?) 1433.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Jan_van_Eyck",
+   "wikidata": "Q102272"
+  },
+  {
+   "country": "BE",
+   "name": "Anthony van Dyck",
+   "about": "Flemish Baroque artist (1599–1641)",
+   "born": "Antwerp",
+   "lat": 51.2211,
+   "lon": 4.3997,
+   "image": "Sir Anthony van Dyck - Self-portrait.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Anthony_van_Dyck",
+   "wikidata": "Q150679"
+  },
+  {
+   "country": "BE",
+   "name": "Andreas Vesalius",
+   "about": "Flemish anatomist, physician and author (1514–1564)",
+   "born": "Brussels",
+   "lat": 50.8367,
+   "lon": 4.3517,
+   "image": "Vesalius Fabrica portrait.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Andreas_Vesalius",
+   "wikidata": "Q170267"
+  },
+  {
+   "country": "BE",
+   "name": "Georges Lemaître",
+   "about": "Belgian astrophysicist and Catholic priest (1894–1966)",
+   "born": "Charleroi",
+   "lat": 50.4167,
+   "lon": 4.4442,
+   "image": "Lemaitre.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Georges_Lema%C3%AEtre",
+   "wikidata": "Q12998"
+  },
+  {
+   "country": "BE",
+   "name": "Gerardus Mercator",
+   "about": "Flemish geographer, cosmographer and cartographer (1512–1594)",
+   "born": "Rupelmonde",
+   "lat": 51.1261,
+   "lon": 4.2908,
+   "image": "Gerard Mercator (Cremer). Line engraving by N. de Larmessin, Wellcome V0003979.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Gerardus_Mercator",
+   "wikidata": "Q6353"
+  },
+  {
+   "country": "BE",
+   "name": "Kim Clijsters",
+   "about": "Belgian tennis player (born 1983)",
+   "born": "Bilzen",
+   "lat": 50.8667,
+   "lon": 5.5167,
+   "image": "Kim Clijsters 2011 crop2.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Kim_Clijsters",
+   "wikidata": "Q11685"
+  },
+  {
+   "country": "BE",
+   "name": "Justine Henin",
+   "about": "Belgian tennis player (born 1982)",
+   "born": "Liège",
+   "lat": 50.6397,
+   "lon": 5.5706,
+   "image": "Justine Henin.JPG",
+   "wikipedia": "https://en.wikipedia.org/wiki/Justine_Henin",
+   "wikidata": "Q11682"
+  },
+  {
+   "country": "BE",
+   "name": "Stromae",
+   "about": "Belgian singer and songwriter (born 1985)",
+   "born": "Etterbeek, Brussels",
+   "lat": 50.8361,
+   "lon": 4.3861,
+   "image": "Stromae 2011 cropped.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Stromae",
+   "wikidata": "Q313453"
+  },
+  {
+   "country": "BE",
+   "name": "Maurice Maeterlinck",
+   "about": "Belgian playwright and essayist (1862–1949)",
+   "born": "Ghent",
+   "lat": 51.0536,
+   "lon": 3.7253,
+   "image": "Picture of Maurice Maeterlinck.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Maurice_Maeterlinck",
+   "wikidata": "Q49747"
+  },
+  {
+   "country": "BE",
+   "name": "Eden Hazard",
+   "about": "Belgian footballer (born 1991)",
+   "born": "La Louvière",
+   "lat": 50.4778,
+   "lon": 4.1881,
+   "image": "Eden Hazard at Baku before 2019 UEFA Europe League Final.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Eden_Hazard",
+   "wikidata": "Q214204"
+  },
+  {
+   "country": "BE",
+   "name": "Marguerite Yourcenar",
+   "about": "French novelist and essayist (1903–1987)",
+   "born": "Brussels",
+   "lat": 50.8467,
+   "lon": 4.3517,
+   "image": "Marguerite Yourcenar-Bailleul-1982.10.04.Bernhard De Grendel (10).jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Marguerite_Yourcenar",
+   "wikidata": "Q163118"
+  },
+  {
+   "country": "BE",
+   "name": "Ursula von der Leyen",
+   "about": "President of the European Commission",
+   "born": "Ixelles, Brussels",
+   "lat": 50.8331,
+   "lon": 4.3669,
+   "image": "Ursula von der Leyen 2024.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Ursula_von_der_Leyen",
+   "wikidata": "Q60772"
+  },
+  {
+   "country": "BE",
+   "name": "Agnès Varda",
+   "about": "French artist, film director, screenwriter and photographer (1928–2019)",
+   "born": "Ixelles, Brussels",
+   "lat": 50.8331,
+   "lon": 4.3669,
+   "image": "MJK 37447 Agnès Varda (Berlinale 2019) (cropped).jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Agn%C3%A8s_Varda",
+   "wikidata": "Q229990"
+  },
+  {
+   "country": "BE",
+   "name": "Leo Baekeland",
+   "about": "Belgian-American chemist, inventor of Bakelite (1863–1944)",
+   "born": "Ghent",
+   "lat": 51.0536,
+   "lon": 3.7253,
+   "image": "Leo Baekeland ca 1906.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Leo_Baekeland",
+   "wikidata": "Q243442"
+  },
+  {
+   "country": "DE",
+   "name": "Albert Einstein",
+   "about": "German-born theoretical physicist (1879–1955)",
+   "born": "Ulm",
+   "lat": 48.3986,
+   "lon": 9.9911,
+   "image": "Einstein 1921 by F Schmutzer - restoration.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Albert_Einstein",
+   "wikidata": "Q937"
+  },
+  {
+   "country": "DE",
+   "name": "Ludwig van Beethoven",
+   "about": "German composer (1770–1827)",
+   "born": "Bonn",
+   "lat": 50.7353,
+   "lon": 7.1022,
+   "image": "Beethoven.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven",
+   "wikidata": "Q255"
+  },
+  {
+   "country": "DE",
+   "name": "Johann Sebastian Bach",
+   "about": "German composer (1685–1750)",
+   "born": "Eisenach",
+   "lat": 50.9747,
+   "lon": 10.3244,
+   "image": "Johann Sebastian Bach.png",
+   "wikipedia": "https://en.wikipedia.org/wiki/Johann_Sebastian_Bach",
+   "wikidata": "Q1339"
+  },
+  {
+   "country": "DE",
+   "name": "Johann Wolfgang von Goethe",
+   "about": "German writer and statesman (1749–1832)",
+   "born": "Frankfurt",
+   "lat": 50.1106,
+   "lon": 8.6822,
+   "image": "Goethe (Stieler 1828).jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe",
+   "wikidata": "Q5879"
+  },
+  {
+   "country": "DE",
+   "name": "Karl Marx",
+   "about": "German-born philosopher (1818–1883)",
+   "born": "Trier",
+   "lat": 49.7557,
+   "lon": 6.6394,
+   "image": "Karl Marx 001 restored.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Karl_Marx",
+   "wikidata": "Q9061"
+  },
+  {
+   "country": "DE",
+   "name": "Martin Luther",
+   "about": "German priest and theologian (1483–1546)",
+   "born": "Eisleben",
+   "lat": 51.5167,
+   "lon": 11.55,
+   "image": "Lucas Cranach d.Ä. - Martin Luther, 1528 (Veste Coburg).jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Martin_Luther",
+   "wikidata": "Q9554"
+  },
+  {
+   "country": "DE",
+   "name": "Angela Merkel",
+   "about": "chancellor of Germany from 2005 to 2021 (born 1954)",
+   "born": "Hamburg",
+   "lat": 53.5719,
+   "lon": 9.9662,
+   "image": "Angela Merkel Juli 2010 - 3zu4.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Angela_Merkel",
+   "wikidata": "Q567"
+  },
+  {
+   "country": "DE",
+   "name": "Albrecht Dürer",
+   "about": "German painter and printmaker (1471–1528)",
+   "born": "Nuremberg",
+   "lat": 49.4539,
+   "lon": 11.0775,
+   "image": "Dürer Alte Pinakothek.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer",
+   "wikidata": "Q5580"
+  },
+  {
+   "country": "DE",
+   "name": "Marlene Dietrich",
+   "about": "German and American actress and singer (1901–1992)",
+   "born": "Berlin",
+   "lat": 52.4839,
+   "lon": 13.3622,
+   "image": "Marlene Dietrich Ross-Verlag 0875(crop).jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Marlene_Dietrich",
+   "wikidata": "Q4612"
+  },
+  {
+   "country": "DE",
+   "name": "Steffi Graf",
+   "about": "German tennis player (born 1969)",
+   "born": "Mannheim",
+   "lat": 49.4878,
+   "lon": 8.4661,
+   "image": "Steffi Graf in Hamburg 2010 (cropped).jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Steffi_Graf",
+   "wikidata": "Q11662"
+  },
+  {
+   "country": "FR",
+   "name": "Napoleon",
+   "about": "Emperor of the French (1769–1821)",
+   "born": "Ajaccio",
+   "lat": 41.9256,
+   "lon": 8.7364,
+   "image": "Jacques-Louis David - The Emperor Napoleon in His Study at the Tuileries - Google Art Project.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Napoleon",
+   "wikidata": "Q517"
+  },
+  {
+   "country": "FR",
+   "name": "Victor Hugo",
+   "about": "French novelist, poet, dramatist and politician (1802–1885)",
+   "born": "Besançon",
+   "lat": 47.2422,
+   "lon": 6.0214,
+   "image": "Victor Hugo by Étienne Carjat 1876 - full.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Victor_Hugo",
+   "wikidata": "Q535"
+  },
+  {
+   "country": "FR",
+   "name": "Joan of Arc",
+   "about": "French heroine and saint (1412–1431)",
+   "born": "Domrémy-la-Pucelle",
+   "lat": 48.4425,
+   "lon": 5.675,
+   "image": "Joan of Arc miniature graded.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Joan_of_Arc",
+   "wikidata": "Q7226"
+  },
+  {
+   "country": "FR",
+   "name": "Claude Monet",
+   "about": "French painter (1840–1926)",
+   "born": "Paris",
+   "lat": 48.8567,
+   "lon": 2.3522,
+   "image": "Claude Monet 1899 Nadar crop.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Claude_Monet",
+   "wikidata": "Q296"
+  },
+  {
+   "country": "FR",
+   "name": "Coco Chanel",
+   "about": "French fashion designer (1883–1971)",
+   "born": "Saumur",
+   "lat": 47.2592,
+   "lon": -0.0781,
+   "image": "Coco Chanel in Los Angeles, 1931 (cropped).jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Coco_Chanel",
+   "wikidata": "Q45661"
+  },
+  {
+   "country": "FR",
+   "name": "Louis Pasteur",
+   "about": "French chemist and microbiologist (1822–1895)",
+   "born": "Dole",
+   "lat": 47.0922,
+   "lon": 5.4897,
+   "image": "Louis Pasteur (1822 - 1895), microbiologist and chemist Wellcome V0026980.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Louis_Pasteur",
+   "wikidata": "Q529"
+  },
+  {
+   "country": "FR",
+   "name": "Édith Piaf",
+   "about": "French singer (1915–1963)",
+   "born": "Paris",
+   "lat": 48.8567,
+   "lon": 2.3522,
+   "image": "Piaf Harcourt 1946 2.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/%C3%89dith_Piaf",
+   "wikidata": "Q1631"
+  },
+  {
+   "country": "FR",
+   "name": "Zinedine Zidane",
+   "about": "French footballer and coach",
+   "born": "Marseille",
+   "lat": 43.3753,
+   "lon": 5.305,
+   "image": "Zinedine Zidane by Tasnim 03.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Zinedine_Zidane",
+   "wikidata": "Q1835"
+  },
+  {
+   "country": "FR",
+   "name": "Charles de Gaulle",
+   "about": "French general and statesman (1890–1970)",
+   "born": "Lille",
+   "lat": 50.6319,
+   "lon": 3.0575,
+   "image": "General Charles de Gaulle in 1945.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Charles_de_Gaulle",
+   "wikidata": "Q2042"
+  },
+  {
+   "country": "FR",
+   "name": "Jules Verne",
+   "about": "French writer (1828–1905)",
+   "born": "Nantes",
+   "lat": 47.2172,
+   "lon": -1.5539,
+   "image": "Félix Nadar 1820-1910 portraits Jules Verne.jpg",
+   "wikipedia": "https://en.wikipedia.org/wiki/Jules_Verne",
+   "wikidata": "Q33977"
+  }
+ ]
+}
